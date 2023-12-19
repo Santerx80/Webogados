@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Page</title>
+
+    <!----- CSS ------>
+    <link rel="stylesheet" href="style/style.css">
+
+    <!----- Font Awesome ----->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+</head>
+<body>
+
+    <!-------S Nav bar------>
+    <header class="header">
+        <div class="logo">
+            <h3>My Page</h3>
+        </div>
+    <nav>
+        <div class="nav-links">
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">About</a></li>
+        </div>
+    </nav>
+        <a href="#" class="btn"><button>Contact</button></a>
+
+        <a onclick="openNav()" class="menu" href="#" ><button>Menu</button></a>
+
+        <div class="overlay" id="mobile-menu">
+            <a onclick="closeNav()" href="" class="close">&times;</a>
+            <div class="overlay-content">
+                <a href="#">Services</a>
+                <a href="#">Projects</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+            </div>
+        </div>
+    </header>
+    <!-------E Nav bar------>
+
+
+    <main class="about">
+            <img src="img/francisco.jpeg" class="photo-profile" alt="">
+        <div class="name">
+            <h1>Francisco Gómez</h1>
+        </div>
+        <div class="introduction">
+            <p>I am Francisco Gómez a ambientalist lawyer with more than a decade of experience in the defense of environmental rights. Graduated from Universidad de Los Andes, I have dedicated my career to fight for environmental justice and advising organizations on the implementation of sustainable practices. My work focuses on creating policies that balance economic development with environmental preservation.</p>
+        </div>
+    </main>
+
+    <main class="circles">
+        <a href="#">
+        <div class="serch">
+            <i class="fa fa-download"></i>
+            <b><p>unload</p></b>
+        </div>
+        </a>
+        <a href="#">
+        <div class="map">
+            <i class="fa fa-map"></i>
+            <b><p>map</p></b>
+        </div>
+        </a>
+        <a href="#">
+        <div class="portfolio">
+            <i class="fa fa-briefcase"></i>
+            <b><p>portfolio</p></b>
+        </div>
+        </a>
+    </main>
+
+    <script type="text/javascript" src="style/nav.js"></script>
+</body>
+</html>
